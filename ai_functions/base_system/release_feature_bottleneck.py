@@ -127,18 +127,3 @@ class ReleaseFeatureBottleneck():
                 
             if not self.__running:
                 break    
-                
-                
-                
-                    
-                    
-                    
-                    
-                
-                
-            
-        
-        
-        
-        
-        

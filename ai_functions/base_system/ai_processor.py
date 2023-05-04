@@ -10,31 +10,8 @@ import yaml
 # --------------------------
 # IMPORT INTERFACE THREADS
 # --------------------------
-from camera.camera_manager                                  import Camera
-from ai_functions.utility.config                                 import AiProcessorConfig
-# from ai_functions.interface_thread.backbone_thread               import BackboneThread
-# from ai_functions.interface_thread.neckhead_yolo5_thread         import NeckHeadYolo5Thread
-# from ai_functions.interface_thread.neckhead_retinaface_thread    import NeckHeadRetinaFaceThread
-# from ai_functions.interface_thread.neckhead_deeplabv3p_thread    import NeckHeadDeepLabV3P
-# from ai_functions.interface_thread.neckhead_without_ai_thread    import NeckHeadWithoutAiThread
-# from ai_functions.interface_thread.neckhead_fire_classification_thread   import NeckHeadFireClassificationThread
-# from ai_functions.interface_thread.tracking_thread               import TrackingThread
-# from ai_functions.interface_thread.general_yolo_app_info_thread  import GeneralYoloAppInfoThread
-# from ai_functions.interface_thread.license_plate_thread          import LicensePlateThread
-
-# --------------------------
-# # IMPORT YOlO APPLICATION 
-# # --------------------------
-# from ai_functions.interface_thread.object_counter_thread         import ObjectCounterThread
-# from ai_functions.interface_thread.heat_map_thread               import HeatMapThread
-# from ai_functions.interface_thread.yolo_app_center_thread        import YoloAppCenterThread
-# from ai_functions.interface_thread.crowd_detection_thread        import CrowdDetectionThread
-# from ai_functions.interface_thread.virtual_fence_thread          import VirtualFenceThread
-# from ai_functions.interface_thread.traffic_jam_thread            import TrafficJamThread
-# from ai_functions.interface_thread.parking_violation_thread      import ParkingViolationThread
-# from ai_functions.interface_thread.red_traffic_light_thread      import RedTrafficLightThread
-# from ai_functions.interface_thread.way_driving_violation_thread  import WayDrivingViolationThread
-# from ai_functions.interface_thread.vehicle_speed_thread          import VehicleSpeedThread
+from camera.camera_manager                                      import Camera
+from ai_functions.utility.config                                import AiProcessorConfig
 
 # --------------------------
 # IMPORT BASE SYSTEM
